@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --white: #fff;
+  --red: #ff3c78;
+  --background: #1e1e1e;
+}
+
+#active {
+  color: var(--red);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container .section-main {
+  background-color: var(--background);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  height: 1078px;
+}
+.container .section-main .main {
+  margin: 0 auto;
+  max-width: 1040px;
+}
+.container .section-main .main .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 94px;
+}
+.container .section-main .main .nav .nav-blog {
+  display: flex;
+  align-items: center;
+}
+.container .section-main .main .nav .nav-blog .blog-logo {
+  display: flex;
+  align-items: center;
+}
+.container .section-main .main .nav .nav-blog .blog-logo .blog-logo {
+  width: 26px;
+  height: 26px;
+}
+.container .section-main .main .nav .nav-blog .blog-logo .logo-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+  margin-left: 8px;
+}
+.container .section-main .main .nav .nav-blog .nav-items .nav-item {
+  margin: 0 38px;
+  color: var(--white);
+  transition: all 300ms ease;
+}
+.container .section-main .main .nav .nav-blog .nav-items .nav-item:hover {
+  color: var(--red);
+}
+.container .section-main .main .nav .nav-reg .login {
+  width: 116px;
+  height: 44px;
+  border: none;
+  outline: none;
+  color: var(--white);
+  border-radius: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  transition: all 300ms ease-in-out;
+  background: transparent;
+  cursor: pointer;
+}
+.container .section-main .main .nav .nav-reg .login:hover {
+  background-color: var(--red);
+}
+.container .section-main .main .main-content .main-title {
+  font-size: 74px;
+  line-height: 81px;
+  font-weight: 900;
+  color: var(--white);
+}
+.container .section-main .main .main-content .main-title .title {
+  font-style: italic;
+  font-size: 74px;
+  line-height: 81px;
+  font-weight: 300;
+  color: var(--white);
+}/*# sourceMappingURL=main.css.map */

@@ -77,6 +77,11 @@
 .container .section-main .main .nav .nav-reg .login:hover {
   background-color: var(--red);
 }
+.container .section-main .main .main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
 .container .section-main .main .main-content .main-title {
   font-size: 74px;
   line-height: 81px;
@@ -89,4 +94,86 @@
   line-height: 81px;
   font-weight: 300;
   color: var(--white);
+}
+.container .section-main .main .main-content .content-text {
+  width: 456px;
+}
+.container .section-main .main .main-content .content-text .text {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white);
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+.container .section-main .main .main-content .content-text .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--red);
+  width: 178px;
+  height: 38px;
+  border-radius: 14px;
+  margin-top: 15px;
+}
+.container .section-main .main .main-content .content-text .btn .btns {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+}
+.container .section-main .main .main-content .content-text .btn .img {
+  width: 24px;
+  height: 24px;
+}
+.container .section-main .main .main-content .content-text .btn:hover {
+  background-color: #ac5770;
+}
+.container .section-main .main .main-image {
+  margin-top: 80px;
+  background-image: url(./images/Image.png);
+  width: 1040px;
+  height: 474px;
+  position: relative;
+}
+.container .section-main .main .main-image .main-box {
+  position: absolute;
+  top: 35%;
+  right: 15%;
+  width: 246px;
+  height: 238px;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+.container .section-main .main .main-image .main-box img {
+  background-color: var(--red);
+  position: absolute;
+  top: 0;
+  right: 30%;
+  transform: translate(-50%, -50%);
+  padding: 8px;
+  border-radius: 100%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.container .section-main .main .main-image .main-box .main-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--background);
+  text-align: center;
+  margin-top: 35px;
+}
+.container .section-main .main .main-image .main-box .line {
+  width: 173px;
+  height: 12px;
+  background-color: #e1e0de;
+  border-radius: 8px;
+  margin: 16px auto;
+}
+.container .section-main .main .main-image .main-box .small-line {
+  width: 142px;
+  height: 7.3px;
+  background-color: #e1e0de;
+  border-radius: 8px;
+  margin: 16px auto;
 }/*# sourceMappingURL=main.css.map */

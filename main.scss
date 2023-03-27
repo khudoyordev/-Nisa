@@ -82,6 +82,10 @@
       }
 
       .main-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+
         .main-title {
           font-size: 74px;
           line-height: 81px;
@@ -94,6 +98,92 @@
             line-height: 81px;
             font-weight: 300;
             color: var(--white);
+          }
+        }
+
+        .content-text {
+          width: 456px;
+
+          .text {
+            font-size: 18px;
+            font-weight: 400;
+            color: var(--white);
+            line-height: 26px;
+            letter-spacing: 1px;
+          }
+
+          .btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: var(--red);
+            width: 178px;
+            height: 38px;
+            border-radius: 14px;
+            margin-top: 15px;
+            .btns {
+              background-color: transparent;
+              border: none;
+              outline: none;
+              color: var(--white);
+              font-size: 16px;
+              font-weight: 500;
+            }
+            .img {
+              width: 24px;
+              height: 24px;
+            }
+          }
+          .btn:hover {
+            background-color: #ac5770;
+          }
+        }
+      }
+      .main-image {
+        margin-top: 80px;
+        background-image: url(./images/Image.png);
+        width: 1040px;
+        height: 474px;
+        position: relative;
+        .main-box {
+          position: absolute;
+          top: 35%;
+          right: 15%;
+          width: 246px;
+          height: 238px;
+          background-color: var(--white);
+          border-radius: 5px;
+
+          img {
+            background-color: var(--red);
+            position: absolute;
+            top: 0;
+            right: 30%;
+            transform: translate(-50%, -50%);
+            padding: 8px;
+            border-radius: 100%;
+            border: 5px solid rgba(255, 255, 255, 0.5);
+          }
+          .main-title {
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--background);
+            text-align: center;
+            margin-top: 35px;
+          }
+          .line {
+            width: 173px;
+            height: 12px;
+            background-color: #e1e0de;
+            border-radius: 8px;
+            margin: 16px auto;
+          }
+          .small-line {
+            width: 142px;
+            height: 7.3px;
+            background-color: #e1e0de;
+            border-radius: 8px;
+            margin: 16px auto;
           }
         }
       }
