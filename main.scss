@@ -18,6 +18,7 @@
 .container {
   max-width: 1440px;
   margin: 0 auto;
+
   .section-main {
     background-color: var(--background);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
@@ -185,7 +186,91 @@
             border-radius: 8px;
             margin: 16px auto;
           }
+          .big-line {
+            width: 196px;
+            height: 42px;
+            background-color: #59d7c9;
+            margin: 30px auto;
+            border-radius: 88px;
+          }
         }
+      }
+    }
+  }
+
+  .work-day {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    height: 590px;
+    background-color: #f9f5f2;
+    .day-img {
+      position: relative;
+      .img {
+        width: 384px;
+        height: 432px;
+        border-radius: 16px;
+      }
+
+      .box-arrow {
+        .img-pat1 {
+          position: absolute;
+          top: 2%;
+          left: -15%;
+          width: 43px;
+          height: 19px;
+        }
+
+        .img-pat2 {
+          position: absolute;
+          top: -12%;
+          left: -12%;
+          width: 47px;
+          height: 42px;
+        }
+
+        .img-pat3 {
+          position: absolute;
+          top: -15%;
+          left: -2%;
+          width: 56px;
+          height: 47px;
+        }
+      }
+
+      .img-patn {
+        position: absolute;
+        bottom: -10%;
+        right: -12%;
+        width: 191px;
+        height: 131px;
+      }
+    }
+    .day-content {
+      width: 500px;
+      .title {
+        font-size: 40px;
+        font-weight: 700;
+        color: var(--background);
+        line-height: 47px;
+      }
+      .text {
+        font-size: 16px;
+        font-weight: 400;
+        color: #172237;
+        line-height: 24px;
+      }
+      .btn-link {
+        width: 160px;
+        height: 48px;
+        background-color: #2241cf;
+        border-radius: 16px;
+        font-size: 16px;
+        font-weight: 500;
+        border: none;
+        outline: none;
+        color: var(--white);
       }
     }
   }
