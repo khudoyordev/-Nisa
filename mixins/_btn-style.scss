@@ -1,0 +1,13 @@
+@mixin btnStyle {
+  width: 160px;
+  height: 48px;
+  background-color: #2241cf;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  color: #fff;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
